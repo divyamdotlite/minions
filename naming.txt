@@ -1,0 +1,3 @@
+📁 Folder:      loading-btn
+🟨 JavaScript:  loadingBtn
+🎨 CSS class:   loading__btn
