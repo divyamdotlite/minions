@@ -10,10 +10,43 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive login form with gsap - Bedimcode</title>
+      <title>Responsive login form with gsap</title>
    </head>
    <body>
-      
+      <section class="login">
+         <div class="login__container">
+            <div>
+               <h2 class="login__title">Welcome, back 👋</h2>
+               <form action="" method="post" class="login__form">
+                  <div class="login__group">
+                     <div class="login__box">
+                        <i class="ri-mail-fill login__icon"></i>
+                        <input type="email" name="email" autocomplete="email" required placeholder=" " class="login__input" id="email">
+                        <label for="email" class="login__label">Email</label>
+                     </div>
+                     <div class="login__box">
+                        <i class="ri-lock-2-fill login__icon"></i>
+                        <input type="password" name="password" autocomplete="current-password" required placeholder=" " class="login__input" id="password">
+                        <label for="password" class="login__label">Password</label>
+                     </div>
+                  </div>
+
+                  <a href="#" class="login__forgot">Forgot Password</a>
+                  <button type="button" class="login__button">
+                     Log in
+                  </button>
+
+                  <p class="login__sign">
+                     Don't have an account <a href="#">Sign Up</a>
+                  </p>
+               </form>
+            </div>
+
+            <div class="login__image">
+               <img src="assets/img/login-bg.png" alt="" class="login__img">
+            </div>
+         </div>
+      </section>
 
       <!--=============== GSAP ===============-->
       <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
